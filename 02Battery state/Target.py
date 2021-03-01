@@ -166,7 +166,7 @@ if __name__ == '__main__':
         
     SeedResult = np.zeros((25,8))
     
-    for i in range(5):
+    for i in range(25):
                 
         index1 = seedrecord[i,:]
         index2 = np.delete(np.arange(168),index1)

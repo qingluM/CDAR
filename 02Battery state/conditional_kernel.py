@@ -2,7 +2,7 @@
 """
 Created on Tue Sep  8 10:56:20 2020
 
-@author: MXM
+@author: Qinglu Meng
 """
 
 import torch

@@ -17,7 +17,7 @@ def loss_evaluate(y_true,y_pred):
 
     # MAE Mean absolute error
     print("MAE  {}".format(mean_absolute_error(y_true,y_pred)))
-    # RMSE Root mean square error
+    # MAPE 
     print("MAPE {}".format(np.mean(np.abs((y_true - y_pred) / y_true))))      
     # MSE Mean square error
     print("MSE  {}".format(mean_squared_error(y_true,y_pred)))
